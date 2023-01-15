@@ -1,0 +1,7 @@
+package org.example.person;
+
+public enum Surname {
+    BERGHOLC, CAMUS, CRISTIE, EINSTEIN, FRANK, GELLHORN, HEMINGWEY, LINDGREN, ORWELL,
+    PELEVIN, PORTER, RAND, ROWLING, TESLA, TWAIN, WILDE
+
+}
