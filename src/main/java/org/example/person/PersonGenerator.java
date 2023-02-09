@@ -8,7 +8,7 @@ public class PersonGenerator {
 
     public static List<Person> personList = new ArrayList<>();
 
-    public static List<Person> getPersonList() {
+    public static List<org.example.person.Person> getPersonList() {
         return personList;
     }
 

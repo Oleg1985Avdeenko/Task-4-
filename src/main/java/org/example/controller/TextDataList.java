@@ -3,6 +3,7 @@ package org.example.controller;
 import org.example.person.Person;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class TextDataList {
 
@@ -11,7 +12,7 @@ public class TextDataList {
     public static List<String> setTextDataList(List<Person> personList) {
        // List<String> listFromFile =
                return personList.stream().map(e -> " name: " + e.getName()
-                + ", surname: " + e.getSurname()).toList();
+                + ", surname: " + e.getSurname()).collect(Collectors.toList());
 
     }
 }

@@ -4,30 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bb652db-3f10-440f-843b-d4fde9dcfe4d" name="Changes" comment="Создайте класс Person, с полями name, surname, age. Сгенерируйте группу из 100 человек в возрасте от 15 до 30.&#10;&#10;выберете объекты, возраст которых меньше 21;&#10;распечатать их на экран;&#10;сортируем по фамилии, а потом по имени (использовать thenComparing у объекта Comparator);&#10;убираем дубли (если name, surname, age одинаковые)&#10;сохраняем в файл, как объект, каждый экземпляр класса Person&#10;читаем из файла&#10;создаем при помощи stream новую коллекцию (List&lt;String&gt;) только из Фамилии и Имени для прочтенных из фалов объектов&#10;выводим на экран">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/FileObjectReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/FileObjectWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/TextDataList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/PersonGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/PersonaCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/Surname.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/AgeSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/controller/FileObjectReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sort/AgeSorterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sort/MyComparatorTest.java" afterDir="false" />
+    <list default="true" id="4bb652db-3f10-440f-843b-d4fde9dcfe4d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/TextDataList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/TextDataList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/person/PersonGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/person/PersonGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,28 +42,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "last_opened_file_path": "D:/projeсts/dudar"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projeсts/It-academy/Lesson4/Task_04&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.controller" />
       <recent name="org.example.sort" />
       <recent name="org.example.person" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="Task_04" />
       <extension name="coverage">
@@ -92,7 +79,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AgeSorterTest.testGetPersonUnderLegalAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../opt/java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgeSorterTest.testGetPersonUnderLegalAge" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Task_04" />
       <extension name="coverage">
         <pattern>
@@ -156,17 +150,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.AgeSorterTest.testGetPersonUnderLegalAge" />
+      <item itemvalue="JUnit.FileObjectReaderTest.testReadFromFile" />
+      <item itemvalue="JUnit.MyComparatorTest.testGetSetList" />
+      <item itemvalue="JUnit.MyComparatorTest.testGetSortList" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.FileObjectReaderTest.testReadFromFile" />
         <item itemvalue="JUnit.MyComparatorTest.testGetSetList" />
         <item itemvalue="JUnit.MyComparatorTest.testGetSortList" />
-        <item itemvalue="JUnit.AgeSorterTest.testGetPersonUnderLegalAge" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4bb652db-3f10-440f-843b-d4fde9dcfe4d" name="Changes" comment="" />
@@ -174,8 +177,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673294474072</updated>
+      <workItem from="1673784517933" duration="2161000" />
+      <workItem from="1673971111543" duration="383000" />
+      <workItem from="1674064129299" duration="1146000" />
+      <workItem from="1674680105683" duration="45000" />
     </task>
+    <task id="LOCAL-00001" summary="Создайте класс Person, с полями name, surname, age. Сгенерируйте группу из 100 человек в возрасте от 15 до 30.&#10;&#10;выберете объекты, возраст которых меньше 21;&#10;распечатать их на экран;&#10;сортируем по фамилии, а потом по имени (использовать thenComparing у объекта Comparator);&#10;убираем дубли (если name, surname, age одинаковые)&#10;сохраняем в файл, как объект, каждый экземпляр класса Person&#10;читаем из файла&#10;создаем при помощи stream новую коллекцию (List&lt;String&gt;) только из Фамилии и Имени для прочтенных из фалов объектов&#10;выводим на экран">
+      <created>1673742210298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673742210298</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создайте класс Person, с полями name, surname, age. Сгенерируйте группу из 100 человек в возрасте от 15 до 30.&#10;&#10;выберете объекты, возраст которых меньше 21;&#10;распечатать их на экран;&#10;сортируем по фамилии, а потом по имени (использовать thenComparing у объекта Comparator);&#10;убираем дубли (если name, surname, age одинаковые)&#10;сохраняем в файл, как объект, каждый экземпляр класса Person&#10;читаем из файла&#10;создаем при помощи stream новую коллекцию (List&lt;String&gt;) только из Фамилии и Имени для прочтенных из фалов объектов&#10;выводим на экран" />
