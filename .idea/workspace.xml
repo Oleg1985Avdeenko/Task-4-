@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Task_04:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bb652db-3f10-440f-843b-d4fde9dcfe4d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4bb652db-3f10-440f-843b-d4fde9dcfe4d" name="Changes" comment="Создайте класс Person, с полями name, surname, age. Сгенерируйте группу из 100 человек в возрасте от 15 до 30.&#10;&#10;выберете объекты, возраст которых меньше 21;&#10;распечатать их на экран;&#10;сортируем по фамилии, а потом по имени (использовать thenComparing у объекта Comparator);&#10;убираем дубли (если name, surname, age одинаковые)&#10;сохраняем в файл, как объект, каждый экземпляр класса Person&#10;читаем из файла&#10;создаем при помощи stream новую коллекцию (List&lt;String&gt;) только из Фамилии и Имени для прочтенных из фалов объектов&#10;выводим на экран">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/webServlet/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/persons.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/TextDataList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/TextDataList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/person/PersonGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/person/PersonGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +28,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,17 +58,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projeсts/It-academy/Lesson4/Task_04&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/projeсts/It-academy/Lesson4/Task_04",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.controller" />
@@ -63,7 +82,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.71">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -150,12 +169,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.71" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.71" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Task_04:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Task_04_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="dfddbcc4-c002-40fa-8946-6c9d7966ed53" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59985" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Task_04:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.AgeSorterTest.testGetPersonUnderLegalAge" />
       <item itemvalue="JUnit.FileObjectReaderTest.testReadFromFile" />
       <item itemvalue="JUnit.MyComparatorTest.testGetSetList" />
       <item itemvalue="JUnit.MyComparatorTest.testGetSortList" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.71" />
     </list>
     <recent_temporary>
       <list>
@@ -181,6 +273,8 @@
       <workItem from="1673971111543" duration="383000" />
       <workItem from="1674064129299" duration="1146000" />
       <workItem from="1674680105683" duration="45000" />
+      <workItem from="1675964859263" duration="16272000" />
+      <workItem from="1676659643814" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="Создайте класс Person, с полями name, surname, age. Сгенерируйте группу из 100 человек в возрасте от 15 до 30.&#10;&#10;выберете объекты, возраст которых меньше 21;&#10;распечатать их на экран;&#10;сортируем по фамилии, а потом по имени (использовать thenComparing у объекта Comparator);&#10;убираем дубли (если name, surname, age одинаковые)&#10;сохраняем в файл, как объект, каждый экземпляр класса Person&#10;читаем из файла&#10;создаем при помощи stream новую коллекцию (List&lt;String&gt;) только из Фамилии и Имени для прочтенных из фалов объектов&#10;выводим на экран">
       <created>1673742210298</created>
@@ -189,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673742210298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Создайте класс Person, с полями name, surname, age. Сгенерируйте группу из 100 человек в возрасте от 15 до 30.&#10;&#10;выберете объекты, возраст которых меньше 21;&#10;распечатать их на экран;&#10;сортируем по фамилии, а потом по имени (использовать thenComparing у объекта Comparator);&#10;убираем дубли (если name, surname, age одинаковые)&#10;сохраняем в файл, как объект, каждый экземпляр класса Person&#10;читаем из файла&#10;создаем при помощи stream новую коллекцию (List&lt;String&gt;) только из Фамилии и Имени для прочтенных из фалов объектов&#10;выводим на экран">
+      <created>1675964953209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675964953209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,10 +299,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создайте класс Person, с полями name, surname, age. Сгенерируйте группу из 100 человек в возрасте от 15 до 30.&#10;&#10;выберете объекты, возраст которых меньше 21;&#10;распечатать их на экран;&#10;сортируем по фамилии, а потом по имени (использовать thenComparing у объекта Comparator);&#10;убираем дубли (если name, surname, age одинаковые)&#10;сохраняем в файл, как объект, каждый экземпляр класса Person&#10;читаем из файла&#10;создаем при помощи stream новую коллекцию (List&lt;String&gt;) только из Фамилии и Имени для прочтенных из фалов объектов&#10;выводим на экран" />
     <option name="LAST_COMMIT_MESSAGE" value="Создайте класс Person, с полями name, surname, age. Сгенерируйте группу из 100 человек в возрасте от 15 до 30.&#10;&#10;выберете объекты, возраст которых меньше 21;&#10;распечатать их на экран;&#10;сортируем по фамилии, а потом по имени (использовать thenComparing у объекта Comparator);&#10;убираем дубли (если name, surname, age одинаковые)&#10;сохраняем в файл, как объект, каждый экземпляр класса Person&#10;читаем из файла&#10;создаем при помощи stream новую коллекцию (List&lt;String&gt;) только из Фамилии и Имени для прочтенных из фалов объектов&#10;выводим на экран" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Task_04$MyComparatorTest_testGetSortList.ic" NAME="MyComparatorTest.testGetSortList Coverage Results" MODIFIED="1673737221653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.example.sort.*</FILTER>
-    </SUITE>
   </component>
 </project>
